@@ -17,7 +17,7 @@ const Footer = () => {
 
           </div>
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-3">
-            <h5 className="text-white wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">Quick Links</h5>
+            <h5 className="text-white mt-4 mt-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">Quick Links</h5>
             <ul className="list-unstyled text-white">
               <li className="wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms"><a href="about"> About Us</a></li>
               <li className="wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1000ms"><a href="about">Projects</a></li>
@@ -28,7 +28,7 @@ const Footer = () => {
           </div>
 
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-            <h5 className="text-white mb-4 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">Subscribe Us</h5>
+            <h5 className="text-white mt-4 mt-lg-0 mb-4 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">Subscribe Us</h5>
             <div className="subscribe-wrap mb-4">
               <form id="subscribe-blog" className="d-flex wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">
                 <div id="subscribe-email">

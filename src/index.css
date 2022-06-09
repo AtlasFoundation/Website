@@ -79,6 +79,7 @@ button.btn.block-btn.common-btn {
   padding: 7px 25px;
   color: #1e9cf3;
   margin-top: 20px;
+  font-weight: 500;
 }
 
 .navbar-nav {
@@ -249,9 +250,10 @@ button.btn.block-btn.common-btn {
   border-radius: 103px;
   padding: 4px 21px;
   color: #1e9cf3;
+  font-weight: 500;
 }
 .mt-60{
-  margin-top: 60px;
+  margin-top: 80px;
 }
 .card__title {
   margin-top: 20px;
@@ -373,20 +375,14 @@ footer a{
   }
 }
 
-@media screen and (max-width:991px) {
+@media screen and (max-width:992px) {
   .banner {
     background-position-x: center;
   }
 
-  .time-machine-wrap.text-center {
-    width: 100%;
+  .header_top:before {
+    height: 102px;
   }
-
-  #footer-sidebar-second,
-  #footer-sidebar-third {
-    margin-top: 25px;
-  }
-
   button.navbar-toggler {
     border: 1px solid #fff;
     display: flex;
@@ -396,6 +392,7 @@ footer a{
     outline: none;
     box-shadow: none;
     position: relative;
+    margin-left: auto;
   }
 
   .nav.navbar-nav.flex-row {
@@ -444,14 +441,36 @@ footer a{
 
   #navbar-content {
     position: absolute;
-    background-color: #4cb9c9;
+    background-color: #2297f3;
     left: 15px;
-    width: 95%;
+    width: 97%;
     z-index: 9;
     padding: 0 15px;
     box-shadow: 1px 6px 9px rgb(0 0 0 / 25%);
-    top: 100%;
-  }
+    top: 56px;
+}
+.about-us {
+  background-size: contain;
+  background-position: top;
+}
+.tagline {
+  width: 100%;
+}
+.project-img {
+  display: none;
+}
+.navbar a {
+  color: #fff;
+}
+  .brand .img-responsive {
+    max-height: 55px;
+}
+  .brand {
+    top: -2px;
+}
+.navbar {
+  padding: 15px 0;
+}
 }
 
 @media screen and (max-width:767px) {

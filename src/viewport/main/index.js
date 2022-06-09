@@ -38,7 +38,7 @@ const Main = () => {
       <div className="about-us p-80">
         <div className="container">
           <div className="row d-flex align-items-center">
-            <div className="col-md-6">
+            <div className="col-lg-6">
               <div className="video-wrap wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">
                 <video autoplay="true" loop="true" muted="muted" data-wf-ignore="true" data-object-fit="cover"  >
                   <source src={video} data-wf-ignore="true" />
@@ -46,8 +46,8 @@ const Main = () => {
                 </video>
               </div>
             </div>
-            <div className="col-md-6">
-              <h1 className="author mb-4 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">About Us</h1>
+            <div className="col-lg-6 mt-4 mt-lg-0">
+              <h1 className="author mb-2 mb-lg-4 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">About Us</h1>
               <p className="pe-5 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1000ms">
                 Making a 3D space you're in complete control of should be easy. The web provides the right context and tool to create natural integrations to existing platforms, that works across all devices and performs as well as native apps.
               </p>
@@ -77,9 +77,9 @@ const Main = () => {
       <div className="open-souce p-80">
         <div className="container">
           <div className="row d-flex align-items-center">
-            <div className="col-md-5">
+            <div className="col-lg-5">
             </div>
-            <div className="col-md-7 bg-white wow fadeInRight animated" data-wow-duration="1000ms" data-wow-delay="800ms">
+            <div className="col-lg-7 bg-white wow fadeInRight animated" data-wow-duration="1000ms" data-wow-delay="800ms">
               <div className="open-souce-wrap">
                 <h1 className="wow fadeInRight animated" data-wow-duration="1000ms" data-wow-delay="1000ms">OPEN SOURCE TECHNOLOGY</h1>
                 <p className="wow fadeInRight animated" data-wow-duration="1000ms" data-wow-delay="1200ms">Cryptosabers are interoperable with XREngine, Webaverse, Janus XR and Mozilla Hubs-- all open source platforms that anyone can use to launch their own worlds today. All specifications for Cryptosabers are open source and made available to everyone. Cryptosabers artwork is released under Creative Commons (CC0) so developers can remix and utilize them into their games and promotional materials.</p>
@@ -92,7 +92,7 @@ const Main = () => {
       <div className="projects p-80 pb-0">
         <div className="container">
           <div className="row">
-            <div className="col-md-8">
+            <div className="col-lg-8">
               <div className="row">
                 <div className="col-12">
                   <h1 className="wow text-white zoomIn animated" data-wow-duration="1000ms" data-wow-delay="800ms">Atlas Foundation Projects</h1>
@@ -165,7 +165,7 @@ const Main = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-lg-4">
               <div className="project-img">
                 <img src={ProjectImg} alt="projectImg" className="img-fluid" />
               </div>
@@ -182,7 +182,7 @@ const Main = () => {
             </div>
           </div>
           <div className="row mt-60 d-flex align-items-center">
-          <div className="col-md-4 mb-5 mb-md-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1000ms">
+          <div className="col-lg-4 col-md-6 mb-5 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1000ms">
               <div className="testimonal-wrap">
                 <div className="d-flex justify-content-center mb-4">
                   <FaQuoteLeft className="quotes" />
@@ -221,7 +221,7 @@ const Main = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 mb-5 mb-md-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1200ms">
+            <div className="col-lg-4 col-md-6 mb-5 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1200ms">
               <div className="testimonal-wrap">
                 <div className="d-flex justify-content-center mb-4">
                   <FaQuoteLeft className="quotes" />
@@ -260,7 +260,7 @@ const Main = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 mb-5 mb-md-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1400ms">
+            <div className="col-lg-4 col-md-6 mb-5 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1400ms">
               <div className="testimonal-wrap">
                 <div className="d-flex justify-content-center mb-4">
                   <FaQuoteLeft className="quotes" />
