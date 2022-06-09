@@ -11,7 +11,7 @@ import { FaQuoteLeft, FaStar, FaStarHalfAlt } from "react-icons/fa";
 const Main = () => {
   return (
     <div className="wrapper">
-      <div className="banner" id="#home">
+      <div className="banner" id="home">
         <div className="banner-img">
           <img src={Banner} alt="banner" className="img-fluid" />
         </div>
@@ -35,7 +35,7 @@ const Main = () => {
         </div>
       </div>
 
-      <div className="about-us p-80">
+      <div className="about-us p-80" id="About_Us">
         <div className="container">
           <div className="row d-flex align-items-center">
             <div className="col-lg-6">
@@ -60,7 +60,7 @@ const Main = () => {
         </div>
       </div>
 
-      <div className="what-we-do text-center p-80">
+      <div className="what-we-do text-center p-80" id="What_We_Do">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
@@ -74,7 +74,7 @@ const Main = () => {
         </div>
       </div>
 
-      <div className="open-souce p-80">
+      <div className="open-souce p-80" id="Open-Source">
         <div className="container">
           <div className="row d-flex align-items-center">
             <div className="col-lg-5">
@@ -89,7 +89,7 @@ const Main = () => {
         </div>
       </div>
 
-      <div className="projects p-80 pb-0">
+      <div className="projects p-80 pb-0" id="Services">
         <div className="container">
           <div className="row">
             <div className="col-lg-8">
@@ -174,7 +174,7 @@ const Main = () => {
         </div>
       </div>
 
-      <div className="testimonial p-80">
+      <div className="testimonial p-80" id="Testimonial">
         <div className="container">
           <div className="row text-center">
             <div className="col-md-12">

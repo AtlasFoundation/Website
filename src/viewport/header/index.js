@@ -29,7 +29,7 @@ const Header = () => {
               <div className="collapse navbar-collapse" id="navbar-content">
                 <ul className="nav navbar-nav flex-row">
                   <li className="nav-item nav-link">
-                    <a href="#About_Us" className="nav-anchor">
+                    <a href="#home" className="nav-anchor">
                       Home
                     </a>
                   </li>
@@ -39,22 +39,22 @@ const Header = () => {
                     </a>
                   </li>
                   <li className="nav-item nav-link">
-                    <a href="#About_Us" className="nav-anchor">
+                    <a href="#What_We_Do" className="nav-anchor">
                       What We Do
                     </a>
                   </li>
                   <li className="nav-item nav-link">
-                    <a href="#About_Us" className="nav-anchor">
+                    <a href="#Open-Source" className="nav-anchor">
                       Open Source
                     </a>
                   </li>
                   <li className="nav-item nav-link">
-                    <a href="#About_Us" className="nav-anchor">
+                    <a href="#Services" className="nav-anchor">
                       Services
                     </a>
                   </li>
                   <li className="nav-item nav-link">
-                    <a href="#About_Us" className="nav-anchor">
+                    <a href="#Testimonial" className="nav-anchor">
                       Testimonal
                     </a>
                   </li>
