@@ -65,7 +65,7 @@ const Main = () => {
           <div className="row">
             <div className="col-md-12">
               <h1 className="text-shadow text-white wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">What We Do</h1>
-              <p className=" tagline text-white wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">We chose Atlas as our symbol because we are building the back bone technologies that enable new worlds in digital, virtual, and augmented reality. We envision a future where technology serves to unite us.</p>
+              <p className=" tagline text-white wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">We are a diverse group of experts who pride ourselves on the quality of our work, and we strive to deliver experiences that enable users to embrace the essence of web3 technologies without the technical hurdles. We specialize in 3d design, Artificial Intelligence, NFT’s and verified assets, block chain and distributed ledgers, and browser based game design for the web.</p>
             </div>
             <div className="col-md-12 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">
               <img src={Work} alt="work" className="img-fluid w-90" />
