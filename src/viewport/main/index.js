@@ -51,11 +51,9 @@ const Main = () => {
             <div className="col-lg-6 mt-4 mt-lg-0">
               <h1 className="author mb-2 mb-lg-4 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">About Us</h1>
               <p className="pe-5 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="700ms">
-                Making a 3D space you are in complete control of should be easy. The web provides the right context and tool to create natural integrations to existing platforms, that works across all devices and performs as well as native apps.
-              </p>
+               Atlas Foundation is an international web3 collective focused on cutting edge technologies. We are united by a passion to create a better world both in virtual spaces and in our real communities. </p>
               <p className="pe-5 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">
-                We're creating XR Engine to push the limit on what is possible on the web, in a way that's easy as starting a blog or video feed. Our eco
-                system of libraries and projects enables developers to use a modular set of tools to gradually migrate into the immersive future.
+                We chose Atlas as our symbol because we are building the back bone technologies that enable new worlds in digital, virtual, and augmented reality. We envision a future where technology serves to unite us.
               </p>
             </div>
           </div>
@@ -67,7 +65,7 @@ const Main = () => {
           <div className="row">
             <div className="col-md-12">
               <h1 className="text-shadow text-white wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">What We Do</h1>
-              <p className=" tagline text-white wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">An end-to-end framework for the web, built on popular Javascript frameworks. Scalable multiplayer infrastructure with voice, video, expressive avatars a visual editor and portals between worlds. Build your own games and social experiences and link them together.</p>
+              <p className=" tagline text-white wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">We chose Atlas as our symbol because we are building the back bone technologies that enable new worlds in digital, virtual, and augmented reality. We envision a future where technology serves to unite us.</p>
             </div>
             <div className="col-md-12 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">
               <img src={Work} alt="work" className="img-fluid w-90" />
