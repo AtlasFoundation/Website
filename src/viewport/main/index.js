@@ -177,7 +177,7 @@ const Main = () => {
         <div className="container">
           <div className="row text-center">
             <div className="col-md-12">
-              <h1 className="wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">Our Services</h1>
+              <h1 className="wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">Our Portfolio</h1>
             </div>
           </div>
           <div className="row mt-60 d-flex align-items-stretch">
