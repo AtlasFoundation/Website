@@ -55,7 +55,7 @@ const Header = () => {
                   </li>
                   <li className="nav-item nav-link">
                     <a href="#Testimonial" className="nav-anchor">
-                      Services
+                      Portfolio
                     </a>
                   </li>
                 </ul>
