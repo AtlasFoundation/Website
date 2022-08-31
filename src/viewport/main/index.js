@@ -7,7 +7,6 @@ import { DigitalIcon } from "../../svgIcon/svg";
 import { GeoIcon } from "../../svgIcon/svg";
 import { UnityIcon } from "../../svgIcon/svg";
 import { CyberIcon } from "../../svgIcon/svg";
-import { FaQuoteLeft} from "react-icons/fa";
 
 
 const Main = () => {
@@ -51,7 +50,7 @@ const Main = () => {
             <div className="col-lg-6 mt-4 mt-lg-0">
               <h1 className="author mb-2 mb-lg-4 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">About Us</h1>
               <p className="pe-5 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="700ms">
-               Atlas Foundation is an international web3 collective focused on cutting edge technologies. We are united by a passion to create a better world both in virtual spaces and in our real communities. </p>
+                Atlas Foundation is an international web3 collective focused on cutting edge technologies. We are united by a passion to create a better world both in virtual spaces and in our real communities. </p>
               <p className="pe-5 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">
                 We chose Atlas as our symbol because we are building the back bone technologies that enable new worlds in digital, virtual, and augmented reality. We envision a future where technology serves to unite us.
               </p>
@@ -182,65 +181,55 @@ const Main = () => {
             </div>
           </div>
           <div className="row mt-60 d-flex align-items-stretch">
-            <div className="col-lg-4 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">
-              <div className="testimonal-wrap">
-                <div className="mb-4">
-                  <FaQuoteLeft className="quotes" />
-                  <h5>Avatar Creator</h5>
+            <div className="col-lg-3 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">
+              <a href="https://store.steampowered.com/app/1245920/VectorBall/" target="blank" className="testimonal-wrap vector-ball">
+                <div className="wrapper">
+                  <h3>Vector Ball</h3>
                   <p className="mb-0">
-                  An open, collaborative and evolving character creator project for the open metaverse.
+                    VectorBall is a multiplayer VR game set in a vibrant Cyberspace.
                   </p>
                 </div>
                 <div className="desc-wrap d-flex align-items-center justify-content-between">
-                  <div className="client-img d-flex align-items-center ">
-                    <div className="client-desc">
-                      <h6 className="mb-0">TypeScript</h6>
-                      <p className=" mb-0">Forks: 5</p>
-                    </div>
-                  </div>
-                  <a href="https://github.com/AtlasFoundation/AvatarCreator" class="btn block-btn small-btn common-btn list-unstyled d-flex justify-content-center mb-0">Github</a>
+                  <a href="https://store.steampowered.com/app/1245920/VectorBall/" target="blank" class="btn block-btn small-btn common-btn list-unstyled d-flex justify-content-center mb-0">View More</a>
                 </div>
-              </div>
+              </a>
             </div>
-            <div className="col-lg-4 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="700ms">
-              <div className="testimonal-wrap">
-                <div className="mb-4">
-                  <FaQuoteLeft className="quotes" />
-                  <h5>XR Engine</h5>
+            <div className="col-lg-3 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">
+              <a href="https://play.pocketgodz.xyz/" target="blank" className="testimonal-wrap pocket-godz">
+                <div className="wrapper">
+                  <h3>Pocket Godz</h3>
                   <p className="mb-0">
-                       We are using this repository for research and development purposes toward an open, decentralized, agent-centric and spatially-aware Internet.
+                    Block chain gaming platform utlizing crypto currency wallet.
                   </p>
                 </div>
                 <div className="desc-wrap d-flex align-items-center justify-content-between">
-                  <div className="client-img d-flex align-items-center ">
-                    <div className="client-desc">
-                      <h6 className="mb-0">TypeScript</h6>
-                      <p className=" mb-0">Fork: 1</p>
-                    </div>
-                  </div>
-                  <a href="https://github.com/AtlasFoundation/XREngine" class="btn block-btn small-btn common-btn list-unstyled d-flex justify-content-center mb-0">Github</a>
+                  <a href="https://play.pocketgodz.xyz/" target="blank" class="btn block-btn small-btn common-btn list-unstyled d-flex justify-content-center mb-0">View More</a>
                 </div>
-              </div>
+              </a>
             </div>
-            <div className="col-lg-4 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">
-              <div className="testimonal-wrap">
-                <div className="mb-4">
-                  <FaQuoteLeft className="quotes" />
-                  <h5 className="mb-0">The Nexus</h5>
+            <div className="col-lg-3 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="700ms">
+              <a href="https://apps.apple.com/in/app/bowling-champ-world-tour/id1136557536" target="blank" className="testimonal-wrap bowling">
+                <div className="wrapper">
+                  <h3>Bowling Champ</h3>
                   <p className="mb-0">
-                  The city that comes to you. An open source, hackable, community-driven and CC0 experiment in open metaverse.
-                  </p>
+                    The world’s first motion controlled mobile bowling game.</p>
                 </div>
                 <div className="desc-wrap d-flex align-items-center justify-content-between">
-                  <div className="client-img d-flex align-items-center ">
-                    <div className="client-desc">
-                      <h6 className="mb-0">TypeScript</h6>
-                      <p className=" mb-0">Fork: 2</p>
-                    </div>
-                  </div>
-                  <a href="https://github.com/AtlasFoundation/TheNexus" class="btn block-btn small-btn common-btn list-unstyled d-flex justify-content-center mb-0">Github</a>
+                  <a href="https://apps.apple.com/in/app/bowling-champ-world-tour/id1136557536" target="blank" class="btn block-btn small-btn common-btn list-unstyled d-flex justify-content-center mb-0">View More</a>
                 </div>
-              </div>
+              </a>
+            </div>
+            <div className="col-lg-3 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">
+              <a href="https://play.google.com/store/apps/details?id=com.quarterback.Equilizer&hl=en_IN" target="blank" className="testimonal-wrap quaterback">
+                <div className="wrapper">
+                  <h3 className="mb-0">The Quarterback Equalizer</h3>
+                  <p className="mb-0">
+                    Mobile first sports game for android.</p>
+                </div>
+                <div className="desc-wrap d-flex align-items-center justify-content-between">
+                  <a href="https://play.google.com/store/apps/details?id=com.quarterback.Equilizer&hl=en_IN" target="blank" class="btn block-btn small-btn common-btn list-unstyled d-flex justify-content-center mb-0">View More</a>
+                </div>
+              </a>
             </div>
           </div>
           <div className="row text-center mt-4">

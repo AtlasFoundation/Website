@@ -320,18 +320,63 @@ div#Testimonial .mt-60 {
 
 /* testimonial */
 .testimonal-wrap {
-  box-shadow: 0px 0px 10px 4px rgb(25 129 143 / 17%);
-  padding: 30px 15px 15px;
-  border-radius: 7px;
+  box-shadow: 0px 0px 19px 0px rgb(25 129 143 / 68%);
+  padding: 30px 15px 30px;
+  border-radius: 40px;
   width: 95%;
+  text-align: center;
   position: relative;
   margin: auto;
   height: 100%;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
+  background: linear-gradient(90deg, rgb(52 163 198) 0%, rgba(16, 51, 221, 1) 100%);
+  transition: .5s ease-out;
 }
-.testimonal-wrap .mb-4 {
+.testimonal-wrap:hover {
+  box-shadow: 0px 9px 12px 0px rgb(25 129 143 / 68%);
+  border-radius: 40px 0px;
+  margin-top: -2px;
+  transition: .5s ease-out;
+}
+
+.testimonal-wrap h3, .testimonal-wrap p{
+  color: #fff;
+}
+
+.desc-wrap {
+    z-index: 9;
+    margin: auto;
+}
+.testimonal-wrap:before {
+  opacity: 0.35;
+  content: "";
+  position: absolute;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  filter: blur(2px);
+}
+.testimonal-wrap.vector-ball:before {
+  background-image: url(../src/assets/vector-ball.jpg);
+}
+.testimonal-wrap.pocket-godz:before {
+  background-image: url(../src/assets/pocket.jpg);
+}
+.testimonal-wrap.bowling:before {
+  background-image: url(../src/assets/bowling-champ.jpg);
+}
+.testimonal-wrap.quaterback:before {
+  background-image: url(../src/assets/quaterback.jpg);
+}
+.testimonal-wrap .wrapper {
   flex: 1;
+  z-index: 9;
 }
 #Testimonial .container {
   overflow: hidden;
@@ -345,7 +390,7 @@ div#Testimonial .mt-60 {
 #Testimonial .btn.block-btn.common-btn {
   background-color: #1e9cf3;
   color: #fff;
-  margin-top: 0;
+  margin-top: 10px;
   display: none;
 }
 
