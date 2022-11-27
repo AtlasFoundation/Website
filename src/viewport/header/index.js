@@ -44,8 +44,8 @@ const Header = () => {
                     </a>
                   </li>
                   <li className="nav-item nav-link">
-                    <a href="#Open-Source" className="nav-anchor">
-                      Open Source
+                    <a href="#Tech-Stack" className="nav-anchor">
+                      Tech Stack
                     </a>
                   </li>
                   <li className="nav-item nav-link">
@@ -55,7 +55,7 @@ const Header = () => {
                   </li>
                   <li className="nav-item nav-link">
                     <a href="#Testimonial" className="nav-anchor">
-                      Portfolio
+                      Services
                     </a>
                   </li>
                 </ul>

@@ -21,7 +21,9 @@ const Main = () => {
             <div className="text">
               <div className="col-xl-10 col-lg-10 col-md-12 wow pulse animated" data-wow-duration="1000ms" data-wow-delay="600ms">
                 <div className="text-wrap">
-                  <h1 className="heading">FREE, OPEN & INTEROPERABLE IMMERSIVE WEB TECHNOLOGY</h1>
+                  <h1 className="heading">BUILDING BETTER WORLDS WITH AI/ML AND 3D MAPPING IN THE METAVERSE
+
+</h1>
                   <a className="btn block-btn common-btn" href="#About_Us">Learn More</a>
                 </div>
                 <div
@@ -50,9 +52,9 @@ const Main = () => {
             <div className="col-lg-6 mt-4 mt-lg-0">
               <h1 className="author mb-2 mb-lg-4 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">About Us</h1>
               <p className="pe-5 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="700ms">
-                Atlas Foundation is an international web3 collective focused on cutting edge technologies. We are united by a passion to create a better world both in virtual spaces and in our real communities. </p>
+                Atlas Foundation is an open source web3 collective specializing in Artificial Intelligence, Machine Learning, Drone Mapping,  Augmented Reality, 3D Simulations, Virtual Worlds, Digital Twins, and Gaming. We are united by a passion to create a better world in our digital and physical communities. </p>
               <p className="pe-5 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">
-                We chose Atlas as our symbol because we are building the back bone technologies that enable new worlds in digital, virtual, and augmented reality. We envision a future where technology serves to unite us.
+                Atlas Mundi Foundation offers global mapping and monitoring via our done to data technology. Using 3d modeling we are creating digital twins of real world data in virtual and augmented reality. Using artificial intelligence and machine learning we can not only monitor the present but prepare for the future. We envision a future where technology serves to unite us.
               </p>
             </div>
           </div>
@@ -64,7 +66,7 @@ const Main = () => {
           <div className="row">
             <div className="col-md-12">
               <h1 className="text-shadow text-white wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">What We Do</h1>
-              <p className=" tagline text-white wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">We are a diverse group of experts who pride ourselves on the quality of our work, and we strive to deliver experiences that enable users to embrace the essence of web3 technologies without the technical hurdles. We specialize in 3d design, Artificial Intelligence, NFT’s and verified assets, block chain and distributed ledgers, and browser based game design for the web.</p>
+              <p className=" tagline text-white wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">We pride ourselves on the quality of our work, and we strive to deliver experiences that enable users to embrace web3 technologies without the technical hurdles. We specialize in 3d design, AI/ML, AR/VR and browser based gaming.</p>
             </div>
             <div className="col-md-12 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">
               <img src={Work} alt="work" className="img-fluid w-90" />
@@ -80,8 +82,8 @@ const Main = () => {
             </div>
             <div className="col-lg-7 bg-white wow fadeInRight animated" data-wow-duration="1000ms" data-wow-delay="400ms">
               <div className="open-souce-wrap">
-                <h1 className="wow fadeInRight animated" data-wow-duration="1000ms" data-wow-delay="600ms">OPEN SOURCE TECHNOLOGY</h1>
-                <p className="wow fadeInRight animated" data-wow-duration="1000ms" data-wow-delay="600ms">Cryptosabers are interoperable with XREngine, Webaverse, Janus XR and Mozilla Hubs-- all open source platforms that anyone can use to launch their own worlds today. All specifications for Cryptosabers are open source and made available to everyone. Cryptosabers artwork is released under Creative Commons (CC0) so developers can remix and utilize them into their games and promotional materials.</p>
+                <h1 className="wow fadeInRight animated" data-wow-duration="1000ms" data-wow-delay="600ms">DIGITAL TWINS</h1>
+                <p className="wow fadeInRight animated" data-wow-duration="1000ms" data-wow-delay="600ms">Atlas Mundi Foundation offers global mapping and monitoring via our drone to data technology. Using 3d modeling we are creating digital twins of real world data in virtual and augmented reality. Using artificial intelligence and machine learning we can not only monitor the present but prepare for the future. We envision a future where technology serves to unite us.</p>
               </div>
             </div>
           </div>
