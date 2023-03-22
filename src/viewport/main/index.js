@@ -1,7 +1,7 @@
 import Banner from "../../../src/assets/banner-img.png";
 import Work from "../../../src/assets/what-we-do-img01.png";
 import ProjectImg from "../../../src/assets/projects-img.png";
-import video from '../../video/Universal-Volumetric-Video-Web-Player-transcode.mp4';
+import video from '../../video/Hexmoon.mp4';
 import video1 from '../../video/Universal-Volumetric-Video-Web-Player-transcode.webm';
 import { DigitalIcon } from "../../svgIcon/svg";
 import { GeoIcon } from "../../svgIcon/svg";
