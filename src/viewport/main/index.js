@@ -21,15 +21,21 @@ const Main = () => {
             <div className="text">
               <div className="col-xl-10 col-lg-10 col-md-12 wow pulse animated" data-wow-duration="1000ms" data-wow-delay="600ms">
                 <div className="text-wrap">
-                  <h1 className="heading">BUILDING BETTER WORLDS WITH AI/ML AND 3D MAPPING IN THE METAVERSE
-
+                  <h1 className="heading">
+Open Source AI/ML in 3D:
+<br/>
+Measuring our past, 
+<br/>
+monitoring our present,
+<br/>
+and mapping our future
 </h1>
                   <a className="btn block-btn common-btn" href="#About_Us">Learn More</a>
                 </div>
                 <div
                   className="col-xl-2 col-lg-2 wow fadeInLeft animated"
-                  data-wow-duration="1000ms"
-                  data-wow-delay="600ms">
+                  data-wow-duration="300ms"
+                  data-wow-delay="250ms">
 
                 </div>
               </div>
@@ -42,7 +48,7 @@ const Main = () => {
         <div className="container">
           <div className="row d-flex align-items-center">
             <div className="col-lg-6">
-              <div className="video-wrap wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">
+              <div className="video-wrap wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms">
                 <video autoplay="true" loop="true" muted="muted" data-wf-ignore="true" data-object-fit="cover"  >
                   <source src={video} data-wf-ignore="true" />
                   <source src={video1} data-wf-ignore="true" />
@@ -50,11 +56,11 @@ const Main = () => {
               </div>
             </div>
             <div className="col-lg-6 mt-4 mt-lg-0">
-              <h1 className="author mb-2 mb-lg-4 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">About Us</h1>
-              <p className="pe-5 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="700ms">
+              <h1 className="author mb-2 mb-lg-4 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms">About Us</h1>
+              <p className="pe-5 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms">
                 Atlas Foundation is an open source web3 collective specializing in Artificial Intelligence, Machine Learning, Drone Mapping,  Augmented Reality, 3D Simulations, Virtual Worlds, Digital Twins, and Gaming. We are united by a passion to create a better world in our digital and physical communities. </p>
-              <p className="pe-5 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">
-                Atlas Mundi Foundation offers global mapping and monitoring via our done to data technology. Using 3d modeling we are creating digital twins of real world data in virtual and augmented reality. Using artificial intelligence and machine learning we can not only monitor the present but prepare for the future. We envision a future where technology serves to unite us.
+              <p className="pe-5 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms">
+                Atlas Mundi Foundation offers global mapping and monitoring via our drone to data technology. Using 3d modeling we are creating digital twins of real world data in virtual and augmented reality. Using artificial intelligence and machine learning we can not only monitor the present but prepare for the future. We envision a future where technology serves to unite us.
               </p>
             </div>
           </div>
@@ -65,10 +71,10 @@ const Main = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h1 className="text-shadow text-white wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">What We Do</h1>
-              <p className=" tagline text-white wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">We pride ourselves on the quality of our work, and we strive to deliver experiences that enable users to embrace web3 technologies without the technical hurdles. We specialize in 3d design, AI/ML, AR/VR and browser based gaming.</p>
+              <h1 className="text-shadow text-white wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="0ms">What We Do</h1>
+              <p className=" tagline text-white wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms">We pride ourselves on the quality of our work, and we strive to deliver experiences that enable users to embrace web3 technologies without the technical hurdles. We specialize in 3d design, AI/ML, AR/VR and browser based gaming.</p>
             </div>
-            <div className="col-md-12 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div className="col-md-12 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms">
               <img src={Work} alt="work" className="img-fluid w-90" />
             </div>
           </div>
@@ -80,10 +86,10 @@ const Main = () => {
           <div className="row d-flex align-items-center">
             <div className="col-lg-5">
             </div>
-            <div className="col-lg-7 bg-white wow fadeInRight animated" data-wow-duration="1000ms" data-wow-delay="400ms">
+            <div className="col-lg-7 bg-white wow fadeInRight animated" data-wow-duration="300ms" data-wow-delay="400ms">
               <div className="open-souce-wrap">
-                <h1 className="wow fadeInRight animated" data-wow-duration="1000ms" data-wow-delay="600ms">DIGITAL TWINS</h1>
-                <p className="wow fadeInRight animated" data-wow-duration="1000ms" data-wow-delay="600ms">Atlas Mundi Foundation offers global mapping and monitoring via our drone to data technology. Using 3d modeling we are creating digital twins of real world data in virtual and augmented reality. Using artificial intelligence and machine learning we can not only monitor the present but prepare for the future. We envision a future where technology serves to unite us.</p>
+                <h1 className="wow fadeInRight animated" data-wow-duration="300ms" data-wow-delay="400ms">DIGITAL TWINS</h1>
+                <p className="wow fadeInRight animated" data-wow-duration="300ms" data-wow-delay="400ms">Atlas Mundi Foundation offers global mapping and monitoring via our drone to data technology. Using 3d modeling we are creating digital twins of real world data in virtual and augmented reality. Using artificial intelligence and machine learning we can not only monitor the present but prepare for the future. We envision a future where technology serves to unite us.</p>
               </div>
             </div>
           </div>
@@ -109,7 +115,7 @@ const Main = () => {
                         </div>
                         <div className="card__content">
                           <h4 className="card__title">Digital Beings</h4>
-                          <p className="card__text">Your AI, anywhere. An easy way for AI/AGI researchers to connect their code to virtual worlds, with access to voice, video, chat, player information and contextual scene data. Comes with examples for GPT-3, GPT-J, RASA and more. </p>
+                          <p className="card__text">Your AI, anywhere. An easy way for AI/AGI researchers to connect their code to virtual worlds, with access to voice, video, chat. </p>
                           <button className="btn btn--block card__btn">Github</button>
                         </div>
                       </div>
@@ -124,15 +130,15 @@ const Main = () => {
                           <CyberIcon />
                         </div>
                         <div className="card__content">
-                          <h4 className="card__title">Universal Volumetric</h4>
-                          <p className="card__text">A free, fast, cross-platform volumetric video codec for everyone. Optimized mesh compression combined with streaming MP4 texture sequences for playback of digital humans and other volumetric data in the web, Unity, Unreal and native platforms. </p>
+                          <h4 className="card__title">Drone to Data </h4>
+                          <p className="card__text">A platform for the use of AI and ML for better monitoring and mapping suitable for the challenges of climate change </p>
                           <button className="btn btn--block card__btn">Github</button>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6 wow zoomIn animated" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div className="col-md-6 wow zoomIn animated" data-wow-duration="300ms" data-wow-delay="400ms">
                   <div className="cards">
                     <div className="cards__item">
                       <div className="card text-center p-15">
@@ -141,14 +147,14 @@ const Main = () => {
                         </div>
                         <div className="card__content">
                           <h4 className="card__title">AR & Geospatial Maps</h4>
-                          <p className="card__text">Bridging the virtual with the physical, GeoPose & OpenCV brings the 3D web to your workspace, university and lounge room. Explore your city in a new way with procedurally generated map tiles using geojson data with mapbox and turf.js </p>
+                          <p className="card__text">Bridging the digital divide, GeoPose & OpenCV brings the 3D web to you. Explore your city in a new way with procedurally generated map tiles</p>
                           <button className="btn btn--block card__btn">Github</button>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6 wow zoomIn animated" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div className="col-md-6 wow zoomIn animated" data-wow-duration="300ms" data-wow-delay="400ms">
                   <div className="cards">
                     <div className="cards__item">
                       <div className="card text-center p-15">
@@ -179,54 +185,53 @@ const Main = () => {
         <div className="container">
           <div className="row text-center">
             <div className="col-md-12">
-              <h1 className="wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">Our Portfolio</h1>
+              <h1 className="wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="400ms">Our Portfolio</h1>
             </div>
           </div>
           <div className="row mt-60 d-flex align-items-stretch">
-            <div className="col-lg-3 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">
-              <a href="https://store.steampowered.com/app/1245920/VectorBall/" target="blank" className="testimonal-wrap vector-ball">
+            <div className="col-lg-3 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="400ms">
+              <a href="https://www.characterconstructor.com/" target="blank" className="testimonal-wrap vector-ball">
                 <div className="wrapper">
-                  <h3>Vector Ball</h3>
+                  <h3>Character Constructor</h3>
                   <p className="mb-0">
-                    VectorBall is a multiplayer VR game set in a vibrant Cyberspace.
-                  </p>
+                    Open Source 3D Character Creator for VR, AR, Games and Film. Create your own 3D character in minutes.                                    </p>
                 </div>
                 <div className="desc-wrap d-flex align-items-center justify-content-between">
-                  <a href="https://store.steampowered.com/app/1245920/VectorBall/" target="blank" class="btn block-btn small-btn common-btn list-unstyled d-flex justify-content-center mb-0">View More</a>
+                  <a href="https://www.characterconstructor" target="blank" class="btn block-btn small-btn common-btn list-unstyled d-flex justify-content-center mb-0">View More</a>
                 </div>
               </a>
             </div>
-            <div className="col-lg-3 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">
-              <a href="https://play.pocketgodz.xyz/" target="blank" className="testimonal-wrap pocket-godz">
+            <div className="col-lg-3 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="400ms">
+              <a href="https://thenexus.hyperfy" target="blank" className="testimonal-wrap pocket-godz">
                 <div className="wrapper">
-                  <h3>Pocket Godz</h3>
+                  <h3>Nexus City</h3>
                   <p className="mb-0">
-                    Block chain gaming platform utlizing crypto currency wallet.
-                  </p>
+                    City in the Verse, an Open Source Creative Commons World in your browser                  
+                    </p>
                 </div>
                 <div className="desc-wrap d-flex align-items-center justify-content-between">
                   <a href="https://play.pocketgodz.xyz/" target="blank" class="btn block-btn small-btn common-btn list-unstyled d-flex justify-content-center mb-0">View More</a>
                 </div>
               </a>
             </div>
-            <div className="col-lg-3 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="700ms">
+            <div className="col-lg-3 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="400ms">
               <a href="https://apps.apple.com/in/app/bowling-champ-world-tour/id1136557536" target="blank" className="testimonal-wrap bowling">
                 <div className="wrapper">
-                  <h3>Bowling Champ</h3>
+                  <h3>Painted Conversations</h3>
                   <p className="mb-0">
-                    The world’s first motion controlled mobile bowling game.</p>
-                </div>
+                  Generative AI paints episodic memories of your conversation </p>
+                  </div>
                 <div className="desc-wrap d-flex align-items-center justify-content-between">
                   <a href="https://apps.apple.com/in/app/bowling-champ-world-tour/id1136557536" target="blank" class="btn block-btn small-btn common-btn list-unstyled d-flex justify-content-center mb-0">View More</a>
                 </div>
               </a>
             </div>
-            <div className="col-lg-3 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">
+            <div className="col-lg-3 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="400ms">
               <a href="https://play.google.com/store/apps/details?id=com.quarterback.Equilizer&hl=en_IN" target="blank" className="testimonal-wrap quaterback">
                 <div className="wrapper">
-                  <h3 className="mb-0">The Quarterback Equalizer</h3>
+                  <h3 className="mb-0">Intelligent Designer</h3>
                   <p className="mb-0">
-                    Mobile first sports game for android.</p>
+                    AI Generated custom clothing made to order for truly unique style</p>
                 </div>
                 <div className="desc-wrap d-flex align-items-center justify-content-between">
                   <a href="https://play.google.com/store/apps/details?id=com.quarterback.Equilizer&hl=en_IN" target="blank" class="btn block-btn small-btn common-btn list-unstyled d-flex justify-content-center mb-0">View More</a>
@@ -235,7 +240,7 @@ const Main = () => {
             </div>
           </div>
           <div className="row text-center mt-4">
-            <div className="col-sm-12 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="900ms">
+            <div className="col-sm-12 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="400ms">
               <button class="btn block-btn common-btn" href="">View All</button>
             </div>
           </div>
