@@ -1,8 +1,8 @@
 import Banner from "../../../src/assets/banner-img.png";
-import Work from "../../../src/assets/what-we-do-img01.png";
-import ProjectImg from "../../../src/assets/projects-img.png";
-import video from '../../video/Universal-Volumetric-Video-Web-Player-transcode.mp4';
-import video1 from '../../video/Universal-Volumetric-Video-Web-Player-transcode.webm';
+//import Work from "../../video/moon_club_pan_reel_dancefloor.mp4";
+import ProjectImg from "../../video/moon_club_pan_reel_dancefloor.mp4";
+import video from "../../video/thenexus.mp4";
+import video1 from "../../video/moon_club_pan_reel_dancefloor.mp4";
 import { DigitalIcon } from "../../svgIcon/svg";
 import { GeoIcon } from "../../svgIcon/svg";
 import { UnityIcon } from "../../svgIcon/svg";
@@ -19,7 +19,7 @@ const Main = () => {
         <div className="container">
           <div className="row">
             <div className="text">
-              <div className="col-xl-10 col-lg-10 col-md-12 wow pulse animated" data-wow-duration="1000ms" data-wow-delay="600ms">
+              <div className="col-xl-10 col-lg-10 col-md-12 wow pulse animated" data-wow-duration="300ms" data-wow-delay="250ms">
                 <div className="text-wrap">
                   <h1 className="heading">
 Open Source AI/ML in 3D:
@@ -60,7 +60,6 @@ and mapping our future
               <p className="pe-5 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms">
                 Atlas Foundation is an open source web3 collective specializing in Artificial Intelligence, Machine Learning, Drone Mapping,  Augmented Reality, 3D Simulations, Virtual Worlds, Digital Twins, and Gaming. We are united by a passion to create a better world in our digital and physical communities. </p>
               <p className="pe-5 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms">
-                Atlas Mundi Foundation offers global mapping and monitoring via our drone to data technology. Using 3d modeling we are creating digital twins of real world data in virtual and augmented reality. Using artificial intelligence and machine learning we can not only monitor the present but prepare for the future. We envision a future where technology serves to unite us.
               </p>
             </div>
           </div>
@@ -71,12 +70,14 @@ and mapping our future
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h1 className="text-shadow text-white wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="0ms">What We Do</h1>
-              <p className=" tagline text-white wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms">We pride ourselves on the quality of our work, and we strive to deliver experiences that enable users to embrace web3 technologies without the technical hurdles. We specialize in 3d design, AI/ML, AR/VR and browser based gaming.</p>
+              <h1 className="text-shadow text-white wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms">What We Do</h1>
+              <p className=" tagline text-white wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms"> Atlas Mundi Foundation offers global mapping and monitoring via our drone to data technology. Using 3d modeling we are creating digital twins of real world data in virtual and augmented reality. Using artificial intelligence and machine learning we can not only monitor the present but prepare for the future. We envision a future where technology serves to unite us.</p>
             </div>
-            <div className="col-md-12 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms">
-              <img src={Work} alt="work" className="img-fluid w-90" />
-            </div>
+            <div className="video-wrap wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms">
+                <video autoplay="true" loop="true" muted="muted" data-object-fit="cover" >
+                  <source src={video1} data-wf-ignore="true" />
+                </video>  
+              </div>
           </div>
         </div>
       </div>
@@ -102,11 +103,11 @@ and mapping our future
             <div className="col-lg-8">
               <div className="row">
                 <div className="col-12">
-                  <h1 className="wow text-white zoomIn animated" data-wow-duration="1000ms" data-wow-delay="600ms">Atlas Foundation Projects</h1>
+                  <h1 className="wow text-white zoomIn animated" data-wow-duration="300ms" data-wow-delay="250ms">Atlas Foundation Projects</h1>
                 </div>
               </div>
               <div className="row mt-60">
-                <div className="col-md-6 wow zoomIn animated" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div className="col-md-6 wow zoomIn animated" data-wow-duration="600ms" data-wow-delay="250ms">
                   <div className="cards">
                     <div className="cards__item">
                       <div className="card text-center p-15">
@@ -122,7 +123,7 @@ and mapping our future
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6 wow zoomIn animated" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div className="col-md-6 wow zoomIn animated" data-wow-duration="300ms" data-wow-delay="250ms">
                   <div className="cards">
                     <div className="cards__item">
                       <div className="card text-center p-15">
@@ -162,8 +163,8 @@ and mapping our future
                           <UnityIcon />
                         </div>
                         <div className="card__content">
-                          <h4 className="card__title">Unity XR Bridge</h4>
-                          <p className="card__text">Bridging the virtual with the physical, GeoPose & OpenCV brings the 3D web to your workspace, university and lounge room. Explore your city in a new way with procedurally generated map tiles using geojson data with mapbox and turf.js </p>
+                          <h4 className="card__title">Atlas Avatars</h4>
+                          <p className="card__text">Open Source 3D Character Creator for VR, AR, Games and Film. Create your own 3D character in minutes. </p>
                           <button className="btn btn--block card__btn">Github</button>
                         </div>
                       </div>
