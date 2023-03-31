@@ -70,8 +70,8 @@ and mapping our future
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h1 className="text-shadow text-white wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms">What We Do</h1>
-              <p className=" tagline text-white wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms"> Atlas Mundi Foundation offers global mapping and monitoring via our drone to data technology. Using 3d modeling we are creating digital twins of real world data in virtual and augmented reality. Using artificial intelligence and machine learning we can not only monitor the present but prepare for the future. We envision a future where technology serves to unite us.</p>
+              <h1 className="text-shadow text-white wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms">Our Mission</h1>
+              <p className=" tagline text-white wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms">  Using artificial intelligence and machine learning we can not only monitor the present but map a better path forward to prepare for the future. We envision a future where technology serves to unite us.</p>
             </div>
             <div className="open-souce-wrap" data-wow-duration="300ms" data-wow-delay="250ms">
             <img src={Work} alt="banner" className="img-fluid" />
@@ -88,7 +88,7 @@ and mapping our future
             <div className="col-lg-7 bg-white wow fadeInRight animated" data-wow-duration="300ms" data-wow-delay="250ms">
               <div className="open-souce-wrap">
                 <h1 className="wow fadeInRight animated" data-wow-duration="300ms" data-wow-delay="250ms">Digital Twins</h1>
-                <p className="wow fadeInRight animated" data-wow-duration="300ms" data-wow-delay="250ms">Atlas Mundi Foundation offers global mapping and monitoring via our drone to data technology. Using 3d modeling we are creating digital twins of real world data in virtual and augmented reality. Using artificial intelligence and machine learning we can not only monitor the present but prepare for the future. We envision a future where technology serves to unite us.</p>
+                <p className="wow fadeInRight animated" data-wow-duration="300ms" data-wow-delay="250ms">Atlas Mundi Foundation offers global mapping and monitoring via our drone to data technology. Using 3d modeling we are creating digital twins of real world data in virtual and augmented reality. </p>
               </div>
             </div>
           </div>
@@ -214,14 +214,14 @@ and mapping our future
               </a>
             </div>
             <div className="col-lg-3 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="400ms">
-              <a href="https://apps.apple.com/in/app/bowling-champ-world-tour/id1136557536" target="blank" className="testimonal-wrap bowling">
+              <a href="https://github.com/AtlasFoundation/Animated-Discussion" target="blank" className="testimonal-wrap bowling">
                 <div className="wrapper">
-                  <h3>Painted Conversations</h3>
+                  <h3>Animated Discussion</h3>
                   <p className="mb-0">
-                  Generative AI paints episodic memories of your conversation </p>
+                  Generative AI that listens and paints your conversations as you narrate them </p>
                   </div>
                 <div className="desc-wrap d-flex align-items-center justify-content-between">
-                  <a href="https://apps.apple.com/in/app/bowling-champ-world-tour/id1136557536" target="blank" class="btn block-btn small-btn common-btn list-unstyled d-flex justify-content-center mb-0">View More</a>
+                  <a href="https://github.com/AtlasFoundation/Animated-Discussion" target="blank" class="btn block-btn small-btn common-btn list-unstyled d-flex justify-content-center mb-0">View More</a>
                 </div>
               </a>
             </div>
