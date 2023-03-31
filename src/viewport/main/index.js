@@ -193,23 +193,23 @@ and mapping our future
                 <div className="wrapper">
                   <h3>Character Constructor</h3>
                   <p className="mb-0">
-                    Open Source 3D Character Creator for VR, AR, Games and Film. Create your own 3D character in minutes.                                    </p>
+                    Open Source 3D Avatars for VR, AR, Games and Film. Create your own 3D character in minutes.                                    </p>
                 </div>
                 <div className="desc-wrap d-flex align-items-center justify-content-between">
-                  <a href="https://www.characterconstructor" target="blank" class="btn block-btn small-btn common-btn list-unstyled d-flex justify-content-center mb-0">View More</a>
+                  <a href="https://www.characterconstructor.com" target="blank" class="btn block-btn small-btn common-btn list-unstyled d-flex justify-content-center mb-0">View More</a>
                 </div>
               </a>
             </div>
             <div className="col-lg-3 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="400ms">
-              <a href="https://thenexus.hyperfy" target="blank" className="testimonal-wrap pocket-godz">
+              <a href="https://hyperfy.io/nexus" target="blank" className="testimonal-wrap pocket-godz">
                 <div className="wrapper">
                   <h3>Nexus City</h3>
                   <p className="mb-0">
-                    City in the Verse, an Open Source Creative Commons World in your browser                  
+                    Nexus City is First in the Verse, an Open Source Creative Commons World in your browser                  
                     </p>
                 </div>
                 <div className="desc-wrap d-flex align-items-center justify-content-between">
-                  <a href="https://play.pocketgodz.xyz/" target="blank" class="btn block-btn small-btn common-btn list-unstyled d-flex justify-content-center mb-0">View More</a>
+                  <a href="https://hyperfy.io/nexus" target="blank" class="btn block-btn small-btn common-btn list-unstyled d-flex justify-content-center mb-0">View More</a>
                 </div>
               </a>
             </div>
@@ -226,14 +226,14 @@ and mapping our future
               </a>
             </div>
             <div className="col-lg-3 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="400ms">
-              <a href="https://play.google.com/store/apps/details?id=com.quarterback.Equilizer&hl=en_IN" target="blank" className="testimonal-wrap quaterback">
+              <a href="https://easelwear.com/" target="blank" className="testimonal-wrap quaterback">
                 <div className="wrapper">
                   <h3 className="mb-0">Intelligent Designer</h3>
                   <p className="mb-0">
-                    AI Generated custom clothing made to order for truly unique style</p>
+                    AI Generated custom clothing made to order for truly unique style. Check out Intelligent Designer's Easel Wear brand.</p>
                 </div>
                 <div className="desc-wrap d-flex align-items-center justify-content-between">
-                  <a href="https://play.google.com/store/apps/details?id=com.quarterback.Equilizer&hl=en_IN" target="blank" class="btn block-btn small-btn common-btn list-unstyled d-flex justify-content-center mb-0">View More</a>
+                  <a href="https://easelwear.com/" target="blank" class="btn block-btn small-btn common-btn list-unstyled d-flex justify-content-center mb-0">View More</a>
                 </div>
               </a>
             </div>
