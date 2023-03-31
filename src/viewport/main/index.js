@@ -1,6 +1,6 @@
 import Banner from "../../../src/assets/banner-img.png";
-//import Work from "../../video/moon_club_pan_reel_dancefloor.mp4";
-import ProjectImg from "../../video/moon_club_pan_reel_dancefloor.mp4";
+import Work from "../../../src/assets/what-we-do-img01copy.webp";
+import ProjectImg from "../../../src/assets/projects-img.png";
 import video from "../../video/thenexus.mp4";
 import video1 from "../../video/moon_club_pan_reel_dancefloor.mp4";
 import { DigitalIcon } from "../../svgIcon/svg";
@@ -73,11 +73,9 @@ and mapping our future
               <h1 className="text-shadow text-white wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms">What We Do</h1>
               <p className=" tagline text-white wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms"> Atlas Mundi Foundation offers global mapping and monitoring via our drone to data technology. Using 3d modeling we are creating digital twins of real world data in virtual and augmented reality. Using artificial intelligence and machine learning we can not only monitor the present but prepare for the future. We envision a future where technology serves to unite us.</p>
             </div>
-            <div className="video-wrap wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms">
-                <video autoplay="true" loop="true" muted="muted" data-object-fit="cover" >
-                  <source src={video1} data-wf-ignore="true" />
-                </video>  
-              </div>
+            <div className="open-souce-wrap" data-wow-duration="300ms" data-wow-delay="250ms">
+            <img src={Work} alt="banner" className="img-fluid" />
+            </div>
           </div>
         </div>
       </div>
@@ -87,10 +85,10 @@ and mapping our future
           <div className="row d-flex align-items-center">
             <div className="col-lg-5">
             </div>
-            <div className="col-lg-7 bg-white wow fadeInRight animated" data-wow-duration="300ms" data-wow-delay="400ms">
+            <div className="col-lg-7 bg-white wow fadeInRight animated" data-wow-duration="300ms" data-wow-delay="250ms">
               <div className="open-souce-wrap">
-                <h1 className="wow fadeInRight animated" data-wow-duration="300ms" data-wow-delay="400ms">DIGITAL TWINS</h1>
-                <p className="wow fadeInRight animated" data-wow-duration="300ms" data-wow-delay="400ms">Atlas Mundi Foundation offers global mapping and monitoring via our drone to data technology. Using 3d modeling we are creating digital twins of real world data in virtual and augmented reality. Using artificial intelligence and machine learning we can not only monitor the present but prepare for the future. We envision a future where technology serves to unite us.</p>
+                <h1 className="wow fadeInRight animated" data-wow-duration="300ms" data-wow-delay="250ms">Digital Twins</h1>
+                <p className="wow fadeInRight animated" data-wow-duration="300ms" data-wow-delay="250ms">Atlas Mundi Foundation offers global mapping and monitoring via our drone to data technology. Using 3d modeling we are creating digital twins of real world data in virtual and augmented reality. Using artificial intelligence and machine learning we can not only monitor the present but prepare for the future. We envision a future where technology serves to unite us.</p>
               </div>
             </div>
           </div>
