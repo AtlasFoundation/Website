@@ -2,7 +2,7 @@ import Linkedin from "../../../src/assets/linkedin.png";
 import twitter from "../../../src/assets/twitter.png";
 import discord from "../../../src/assets/discord.png";
 import github from "../../../src/assets/github.png";
-import footerLogo from "../../../src/assets/footer-logo.png";
+import footerLogo from "../../../src/assets/atlasLogo.png";
 
 const Footer = () => {
   return (
@@ -21,7 +21,7 @@ const Footer = () => {
             <ul className="list-unstyled text-white">
               <li className="wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="200ms"><a href="about"> About Us</a></li>
               <li className="wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms"><a href="about">Projects</a></li>
-              <li className="wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="300ms"><a href="about">What We Do</a></li>
+              <li className="wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="300ms"><a href="about">Mission</a></li>
               <li className="wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="350ms"><a href="about">Contact Us</a></li>
               <li className="wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="400ms"><a href="about">Privacy Policy</a></li>
             </ul>
