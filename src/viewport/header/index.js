@@ -9,7 +9,7 @@ const Header = () => {
     <Fragment>
       <div className="header_top">
         <nav className="navbar navbar-expand-lg">
-          <div className="container wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">
+          <div className="container wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms">
             <div className="col-sm-2">
               <a className="brand" href="Home.html">
                 <img src={logo} className="img-responsive" alt="logo" />
