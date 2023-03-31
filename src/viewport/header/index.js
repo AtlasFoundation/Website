@@ -40,7 +40,7 @@ const Header = () => {
                   </li>
                   <li className="nav-item nav-link">
                     <a href="#What_We_Do" className="nav-anchor">
-                      What We Do
+                      Mission
                     </a>
                   </li>
                   <li className="nav-item nav-link">
@@ -55,7 +55,7 @@ const Header = () => {
                   </li>
                   <li className="nav-item nav-link">
                     <a href="#Testimonial" className="nav-anchor">
-                      Services
+                      Portfolio 
                     </a>
                   </li>
                 </ul>
