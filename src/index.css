@@ -368,10 +368,10 @@ div#Testimonial .mt-60 {
   filter: blur(2px);
 }
 .testimonal-wrap.vector-ball:before {
-  background-image: url(../src/assets/vector-ball.jpg);
+  background-image: url(../src/assets/characterconstructor.webp);
 }
 .testimonal-wrap.pocket-godz:before {
-  background-image: url(../src/assets/pocket.jpg);
+  background-image: url(../src/assets/thenexus.webp) 
 }
 .testimonal-wrap.bowling:before {
   background-image: url(../src/assets/bowling-champ.jpg);
