@@ -9,7 +9,7 @@ h5,
 h6 {
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
-  color: #404040;
+  color: #051361;
 }
 
 
@@ -34,7 +34,7 @@ input {
 
 button,
 p {
-  color: #505050;
+  color: #051361;
   line-height: 30px;
   font-size: 16px;
 }
@@ -55,7 +55,7 @@ button.btn.search:hover {
 }
 
 .top-bar a {
-  color: #333;
+  color: #051361;
   text-decoration: none;
 }
 
@@ -92,11 +92,11 @@ nav .row {
 }
 
 .navbar a {
-  color: #404040;
+  color: #0124ea;
 }
 
 .header_top {
-  background: linear-gradient(90deg, rgb(52 163 198) 0%, rgba(16, 51, 221, 1) 100%);
+  background: linear-gradient(90deg, rgb(52 163 198) 0%, rgb(16, 51, 221) 100%);
   overflow: visible;
 }
 
@@ -206,6 +206,9 @@ nav .row {
 /* open-souce */
 .open-souce-wrap {
   padding: 25px 15px;
+  width: auto;
+  margin: auto;
+  overflow: hidden;
 }
 
 .open-souce {
@@ -230,6 +233,7 @@ nav .row {
 
 .projects h1 {
   display: inline-block;
+  position: relative;
 }
 
 .card__image {
@@ -248,6 +252,7 @@ nav .row {
 .project-img {
   position: absolute;
   bottom: 0;
+  height: 80%;
 }
 
 .project-img img{
@@ -267,7 +272,7 @@ nav .row {
   color: #1e9cf3;
 }
 .cards:hover .card__text{
-  color:#505055
+  color:#051361
 }
 .cards:hover .card__image {
   background-color: #1e9cf3;
@@ -320,7 +325,7 @@ div#Testimonial .mt-60 {
 
 /* testimonial */
 .testimonal-wrap {
-  box-shadow: 0px 0px 19px 0px rgb(25 129 143 / 68%);
+  box-shadow: 0px 0px 8px 2px rgb(0 0 0 / 7%);
   padding: 30px 15px 30px;
   border-radius: 40px;
   width: 95%;
@@ -335,7 +340,7 @@ div#Testimonial .mt-60 {
   transition: .5s ease-out;
 }
 .testimonal-wrap:hover {
-  box-shadow: 0px 9px 12px 0px rgb(25 129 143 / 68%);
+  box-shadow:  0px 0px 8px 2px rgb(0 0 0 / 7%);
   border-radius: 40px 0px;
   margin-top: -2px;
   transition: .5s ease-out;
