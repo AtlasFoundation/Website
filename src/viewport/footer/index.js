@@ -20,10 +20,9 @@ const Footer = () => {
             <h5 className="text-white mt-4 mt-lg-0 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms">Quick Links</h5>
             <ul className="list-unstyled text-white">
               <li className="wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="200ms"><a href="about"> About Us</a></li>
-              <li className="wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms"><a href="about">Projects</a></li>
-              <li className="wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="300ms"><a href="about">Mission</a></li>
-              <li className="wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="350ms"><a href="about">Contact Us</a></li>
-              <li className="wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="400ms"><a href="about">Privacy Policy</a></li>
+              <li className="wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms"><a href="projects">Projects</a></li>
+              <li className="wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="300ms"><a href="mission">Mission</a></li>
+              <li className="wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="400ms"><a href="portfolio">Portfolio</a></li>
             </ul>
           </div>
 
@@ -49,10 +48,10 @@ const Footer = () => {
               </form>
             </div>
             <div className="follow">
-              <img src={Linkedin} alt="linkedin" className="img-fluid wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms" />
-              <img src={twitter} alt="twitter" className="img-fluid wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="300ms" />
-              <img src={discord} alt="discord" className="img-fluid wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="350ms" />
-              <img src={github} alt="github" className="img-fluid wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="400ms" />
+              <img src={Linkedin} alt="linkedin" className="img-fluid wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms" /><a href="https://www.linkedin.com/company/atlas-mundi-foundation"></a>
+              <img src={twitter} alt="twitter" className="img-fluid wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="300ms" /><a href="https://twitter.com/atlasavatars"></a>
+              <img src={discord} alt="discord" className="img-fluid wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="350ms" /><a href="https://discord.gg/36qjr67naG"></a>
+              <img src={github} alt="github" className="img-fluid wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="400ms" /><a href="https://github.com/AtlasFoundation"></a>
             </div>
           </div>
         </div>
