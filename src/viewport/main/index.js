@@ -89,7 +89,7 @@ and mapping our future
               <div className="open-souce-wrap">
                 <h1 className="wow fadeInRight animated" data-wow-duration="300ms" data-wow-delay="250ms">Open Source</h1>
                 <p className="wow fadeInRight animated" data-wow-duration="300ms" data-wow-delay="250ms">Atlas Foundation believes in open source programming and collective knowledge.
-                <a href="https://github.com/AtlasFoundation" className="btn btn--block card__btn">Github</a>  </p>
+                <a href="https://github.com/AtlasFoundation" className="btn btn--block card__btn">Visit our Github</a>  </p>
               </div>
             </div>
           </div>
