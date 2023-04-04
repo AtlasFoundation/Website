@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-5 overflow-hidden">
             <div id="footer-sidebar-first" className="company detail">
               <img src={footerLogo} alt="logo" className="img-fluid w-50 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms" />
-              <p className="text-white mt-3 mb-0 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="300ms">We strive to deliver experiences that enable users to embrace web3 technologies without the technical hurdles. We specialize in 3d design, AI/ML, AR/VR and browser based gaming
+              <p className="text-white mt-3 mb-0 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="300ms">Open source specialists in 3D, AI/ML, AR/VR
               </p>
             </div>
           </div>
@@ -28,7 +28,7 @@ const Footer = () => {
           </div>
 
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 overflow-hidden">
-            <h5 className="text-white mt-4 mt-lg-0 mb-4 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="200ms">Subscribe to Get the Latest Updates</h5>
+            <h5 className="text-white mt-4 mt-lg-0 mb-4 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="200ms">Subscribe for updates</h5>
             <div className="subscribe-wrap mb-4">
               <form id="subscribe-blog" className="d-flex wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="200ms">
                 <div id="subscribe-email">
