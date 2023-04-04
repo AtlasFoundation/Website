@@ -66,7 +66,7 @@ and mapping our future
         </div>
       </div>
 
-      <div className="what-we-do text-center p-80" id="What_We_Do">
+      <div className="what-we-do text-center p-80" id="Mission">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
@@ -88,7 +88,7 @@ and mapping our future
             <div className="col-lg-7 bg-white wow fadeInRight animated" data-wow-duration="300ms" data-wow-delay="250ms">
               <div className="open-souce-wrap">
                 <h1 className="wow fadeInRight animated" data-wow-duration="300ms" data-wow-delay="250ms">Open Source</h1>
-                <p className="wow fadeInRight animated" data-wow-duration="300ms" data-wow-delay="250ms">Atlas Foundation believes in open source programming and collective knowledge.  </p>
+                <p className="wow fadeInRight animated" data-wow-duration="300ms" data-wow-delay="250ms">Atlas Foundation believes in open source programming and collective knowledge. Visit our [Github](https://github.com/AtlasFoundation)  </p>
               </div>
             </div>
           </div>
