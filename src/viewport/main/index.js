@@ -87,8 +87,8 @@ and mapping our future
             </div>
             <div className="col-lg-7 bg-white wow fadeInRight animated" data-wow-duration="300ms" data-wow-delay="250ms">
               <div className="open-souce-wrap">
-                <h1 className="wow fadeInRight animated" data-wow-duration="300ms" data-wow-delay="250ms">Digital Twins</h1>
-                <p className="wow fadeInRight animated" data-wow-duration="300ms" data-wow-delay="250ms">Atlas Mundi Foundation offers global mapping and monitoring via our drone to data technology. Using 3d modeling we are creating digital twins of real world data in virtual and augmented reality. </p>
+                <h1 className="wow fadeInRight animated" data-wow-duration="300ms" data-wow-delay="250ms">Open Source</h1>
+                <p className="wow fadeInRight animated" data-wow-duration="300ms" data-wow-delay="250ms">Atlas Foundation believes in open source programming and collective knowledge.  </p>
               </div>
             </div>
           </div>
@@ -180,7 +180,7 @@ and mapping our future
         </div>
       </div>
 
-      <div className="testimonial p-80" id="Testimonial">
+      <div className="portfolio p-80" id="Portfolio">
         <div className="container">
           <div className="row text-center">
             <div className="col-md-12">

@@ -19,10 +19,10 @@ const Footer = () => {
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-3 overflow-hidden">
             <h5 className="text-white mt-4 mt-lg-0 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms">Quick Links</h5>
             <ul className="list-unstyled text-white">
-              <li className="wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="200ms"><a href="about"> About Us</a></li>
-              <li className="wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms"><a href="projects">Projects</a></li>
-              <li className="wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="300ms"><a href="mission">Mission</a></li>
-              <li className="wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="400ms"><a href="portfolio">Portfolio</a></li>
+              <li className="wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="200ms"><a href="#About_Us"> About Us</a></li>
+              <li className="wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms"><a href="#Projects">Projects</a></li>
+              <li className="wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="300ms"><a href="#Mission">Mission</a></li>
+              <li className="wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="400ms"><a href="#Portfolio">Portfolio</a></li>
             </ul>
           </div>
 

@@ -39,7 +39,7 @@ const Header = () => {
                     </a>
                   </li>
                   <li className="nav-item nav-link">
-                    <a href="#What_We_Do" className="nav-anchor">
+                    <a href="#Mission" className="nav-anchor">
                       Mission
                     </a>
                   </li>
@@ -49,7 +49,7 @@ const Header = () => {
                     </a>
                   </li>
                   <li className="nav-item nav-link">
-                    <a href="#Testimonial" className="nav-anchor">
+                    <a href="#Portfolio" className="nav-anchor">
                       Portfolio 
                     </a>
                   </li>
