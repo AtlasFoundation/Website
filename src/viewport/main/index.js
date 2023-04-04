@@ -1,4 +1,4 @@
-import Banner from "../../../src/assets/banner-img.png";
+import Banner from "../../../src/assets/banner-imgcopy2.png";
 import Work from "../../../src/assets/what-we-do-img01copy.webp";
 import ProjectImg from "../../../src/assets/projects-img.png";
 import video from "../../video/thenexus.mp4";
@@ -115,7 +115,7 @@ and mapping our future
                         <div className="card__content">
                           <h4 className="card__title">Digital Beings</h4>
                           <p className="card__text">Your AI, anywhere. An easy way for AI/AGI researchers to connect their code to virtual worlds, with access to voice, video, chat. </p>
-                          <button className="btn btn--block card__btn">Github</button>
+                          <button a href="https://github.com/AtlasFoundation/Digital-Beings" className="btn btn--block card__btn">Github</button>
                         </div>
                       </div>
                     </div>
@@ -131,7 +131,7 @@ and mapping our future
                         <div className="card__content">
                           <h4 className="card__title">Drone to Data </h4>
                           <p className="card__text">A platform for the use of AI and ML for better monitoring and mapping suitable for the challenges of climate change </p>
-                          <button className="btn btn--block card__btn">Github</button>
+                          <button a href="https://opencollective.com/atlas-foundation/projects/themistocles" className="btn btn--block card__btn">Support</button>
                         </div>
                       </div>
                     </div>
@@ -146,8 +146,8 @@ and mapping our future
                         </div>
                         <div className="card__content">
                           <h4 className="card__title">AR & Geospatial Maps</h4>
-                          <p className="card__text">Bridging the digital divide, GeoPose & OpenCV brings the 3D web to you. Explore your city in a new way with procedurally generated map tiles</p>
-                          <button className="btn btn--block card__btn">Github</button>
+                          <p className="card__text">Bridging the digital divide, GeoPose & OpenCV brings the 3D web to you. Explore your city in a new way with map tiles</p>
+                          <a href="https://github.com/AtlasFoundation/AR-maps"  className="btn btn--block card__btn" >Github</a>
                         </div>
                       </div>
                     </div>
@@ -163,7 +163,7 @@ and mapping our future
                         <div className="card__content">
                           <h4 className="card__title">Atlas Avatars</h4>
                           <p className="card__text">Open Source 3D Character Creator for VR, AR, Games and Film. Create your own 3D character in minutes. </p>
-                          <button className="btn btn--block card__btn">Github</button>
+                          <a href="https://github.com/AtlasFoundation/AvatarCreator" className="btn btn--block card__btn">Github</a>
                         </div>
                       </div>
                     </div>
