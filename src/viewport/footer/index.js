@@ -24,6 +24,7 @@ const Footer = () => {
               <li className="wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="300ms"><a href="#Mission">Mission</a></li>
               <li className="wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="400ms"><a href="Open-Source">Open Source</a></li>
               <li className="wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="400ms"><a href="#Portfolio">Portfolio</a></li>
+              <a href="https://www.netlify.com"> <img src="https://www.netlify.com/v3/img/components/netlify-color-accent.svg" alt="Deploys by Netlify" /> </a> 
             </ul>
           </div>
 
@@ -53,7 +54,6 @@ const Footer = () => {
               <img src={twitter} alt="twitter" className="img-fluid wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="300ms" /><a href="https://twitter.com/atlasavatars"></a>
               <img src={discord} alt="discord" className="img-fluid wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="350ms" /><a href="https://discord.gg/36qjr67naG"></a>
               <img src={github} alt="github" className="img-fluid wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="400ms" /><a href="https://github.com/AtlasFoundation"></a>
-              <a href="https://www.netlify.com"> <img src="https://www.netlify.com/v3/img/components/netlify-color-accent.svg" alt="Deploys by Netlify" /> </a>
             </div>
           </div>
         </div>
@@ -63,7 +63,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="copyright text-center">
-              <p>Copyright © 2023. Atlas Mundi Foundation. All Rights Reserved. <a href="https://www.netlify.com"> <img src="https://www.netlify.com/v3/img/components/netlify-color-accent.svg" alt="Deploys by Netlify" /> </a> </p>
+              <p>Copyright © 2023. Atlas Mundi Foundation. All Rights Reserved. </p>
             </div>
           </div>
         </div>
