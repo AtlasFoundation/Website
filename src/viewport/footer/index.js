@@ -63,7 +63,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="copyright text-center">
-              <p>Copyright © 2023. Atlas Mundi Foundation. All Rights Reserved.</p>
+              <p>Copyright © 2023. Atlas Mundi Foundation. All Rights Reserved. <a href="https://www.netlify.com"> <img src="https://www.netlify.com/v3/img/components/netlify-color-accent.svg" alt="Deploys by Netlify" /> </a> </p>
             </div>
           </div>
         </div>
