@@ -22,15 +22,18 @@ const Main = () => {
               <div className="col-xl-10 col-lg-10 col-md-12 wow pulse animated" data-wow-duration="300ms" data-wow-delay="250ms">
                 <div className="text-wrap">
                   <h1 className="heading">
-Open Source AI/ML in 3D:
-<br/>
-Measuring our past, 
-<br/>
-monitoring our present,
-<br/>
-and mapping our future
-</h1>
-                  <a className="btn block-btn common-btn" href="#About_Us">Learn More</a>
+                    Open Source AI/ML in 3D:
+                    <br />
+                    Measuring our past,
+                    <br />
+                    monitoring our present,
+                    <br />
+                    and mapping our future
+                  </h1>
+                  <div className="button-wrap">
+                    <a className="btn block-btn common-btn" href="#About_Us">Learn More</a>
+                    <a className="btn block-btn common-btn collective" target="blank" href="https://opencollective.com/atlas-foundation#support">Contribute <span> on open collective</span></a>
+                  </div>
                 </div>
                 <div
                   className="col-xl-2 col-lg-2 wow fadeInLeft animated"
@@ -74,7 +77,7 @@ and mapping our future
               <p className=" tagline text-white wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="250ms">  Using artificial intelligence and machine learning we can not only monitor the present but map a better path forward to prepare for the future. We envision a future where technology serves to unite us.</p>
             </div>
             <div className="open-souce-wrap" data-wow-duration="300ms" data-wow-delay="250ms">
-            <img src={Work} alt="banner" className="img-fluid" />
+              <img src={Work} alt="banner" className="img-fluid" />
             </div>
           </div>
         </div>
@@ -89,7 +92,7 @@ and mapping our future
               <div className="open-souce-wrap">
                 <h1 className="wow fadeInRight animated" data-wow-duration="300ms" data-wow-delay="250ms">Open Source</h1>
                 <p className="wow fadeInRight animated" data-wow-duration="300ms" data-wow-delay="250ms">Atlas Foundation believes in open source programming and collective knowledge.
-                <a href="https://github.com/AtlasFoundation" className="btn btn--block card__btn">Visit our Github</a>  </p>
+                  <a href="https://github.com/AtlasFoundation" className="btn btn--block card__btn">Visit our Github</a>  </p>
               </div>
             </div>
           </div>
@@ -148,7 +151,7 @@ and mapping our future
                         <div className="card__content">
                           <h4 className="card__title">AR & Geospatial Maps</h4>
                           <p className="card__text">Bridging the digital divide, GeoPose & OpenCV brings the 3D web to you. Explore your city in a new way with map tiles</p>
-                          <a href="https://github.com/AtlasFoundation/AR-maps"  className="btn btn--block card__btn" >Github</a>
+                          <a href="https://github.com/AtlasFoundation/AR-maps" className="btn btn--block card__btn" >Github</a>
                         </div>
                       </div>
                     </div>
@@ -206,8 +209,8 @@ and mapping our future
                 <div className="wrapper">
                   <h3>Nexus City</h3>
                   <p className="mb-0">
-                    Nexus City is First in the Verse, an Open Source Creative Commons World in your browser                  
-                    </p>
+                    Nexus City is First in the Verse, an Open Source Creative Commons World in your browser
+                  </p>
                 </div>
                 <div className="desc-wrap d-flex align-items-center justify-content-between">
                   <a href="https://hyperfy.io/nexus" target="blank" class="btn block-btn small-btn common-btn list-unstyled d-flex justify-content-center mb-0">View More</a>
@@ -219,8 +222,8 @@ and mapping our future
                 <div className="wrapper">
                   <h3>Animated Discussion</h3>
                   <p className="mb-0">
-                  Generative AI that listens and paints your conversations as you narrate them </p>
-                  </div>
+                    Generative AI that listens and paints your conversations as you narrate them </p>
+                </div>
                 <div className="desc-wrap d-flex align-items-center justify-content-between">
                   <a href="https://github.com/AtlasFoundation/Animated-Discussion" target="blank" class="btn block-btn small-btn common-btn list-unstyled d-flex justify-content-center mb-0">View More</a>
                 </div>
